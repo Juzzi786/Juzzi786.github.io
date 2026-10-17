@@ -1,0 +1,538 @@
+{
+  "_comment": "Single source of truth for the portfolio. Everything rendered on the site comes from this file. Edit here, then run `python build.py`. Do not add claims that are not supported by the resume.",
+
+  "site": {
+    "title": "Zuzer Chathiwala — Bioinformatics & Machine Learning",
+    "description": "Bioinformatics and machine learning for clinical and genomic data — deep learning on physiological signals, transcriptomics pipelines and cancer genomics. Six publications.",
+    "url": "https://juzzi786.github.io",
+    "_url_note": "Your live origin, no trailing slash. This drives the canonical link, og:url and og:image — social link previews do not work without it. Set for a GitHub Pages repo named Juzzi786.github.io. Change it if you deploy somewhere else or buy a domain, then rebuild.",
+    "locale": "en",
+    "themeColor": "#0D9488"
+  },
+
+  "profile": {
+    "name": "Zuzer Chathiwala",
+    "wordmark": "Zuzer Chathiwala",
+    "headline": "Bioinformatics and machine learning for clinical and genomic data",
+    "subheadline": "Data Analyst, core R&D — Elmentoz Research Pvt. Ltd. · Final-year B.Tech Bioinformatics, Marwadi University",
+    "intro": [
+      "I build machine learning and deep learning models on biological and clinical data, and the reproducible Python pipelines that feed them.",
+      "My work spans PyTorch models trained on high-dimensional physiological signals, end-to-end single-cell and bulk transcriptomics workflows, and differential expression analysis of cancer genomics datasets. Six publications have come out of it — five IEEE conference papers across oncology, neurology, hematology and endocrinology, and a journal review on bioinformatics approaches to norovirus surveillance.",
+      "I am currently a Data Analyst on the core R&D team at Elmentoz Research Pvt. Ltd. while completing my final year of B.Tech Bioinformatics at Marwadi University."
+    ],
+    "location": "Rajkot, Gujarat, India",
+    "email": "juzerchathiwala@gmail.com",
+    "phone": "",
+    "_phone_note": "Your resume lists +91 93276 01140. It is left out of the published site by default to keep a personal number off a public page. Put it back here to display it in the contact section.",
+    "cv": {
+      "file": "assets/Zuzer_Chathiwala_Resume.pdf",
+      "label": "Download CV (PDF)"
+    },
+    "links": [
+      {
+        "label": "GitHub",
+        "handle": "Juzzi786",
+        "url": "https://github.com/Juzzi786"
+      },
+      {
+        "label": "Google Scholar",
+        "handle": "Citations",
+        "url": "https://scholar.google.com/citations?user=D3QkjmQAAAAJ"
+      },
+      {
+        "label": "LinkedIn",
+        "handle": "zuzer-chathiwala",
+        "url": "https://www.linkedin.com/in/zuzer-chathiwala-650364289"
+      },
+      {
+        "label": "Email",
+        "handle": "juzerchathiwala@gmail.com",
+        "url": "mailto:juzerchathiwala@gmail.com"
+      }
+    ],
+    "_links_note": "No ORCID or personal site yet. Add an entry here and it appears in the hero, the contact panel, the footer and the page's structured data."
+  },
+
+  "snapshot": {
+    "label": "Professional snapshot",
+    "items": [
+      {
+        "key": "Current role",
+        "value": "Data Analyst, core R&D",
+        "detail": "Elmentoz Research Pvt. Ltd."
+      },
+      {
+        "key": "Education",
+        "value": "B.Tech Bioinformatics",
+        "detail": "Marwadi University (NAAC A+) · CGPA 8.54 / 10 · Semester 7 ongoing"
+      },
+      {
+        "key": "Research fellowship",
+        "value": "Summer Research Fellow",
+        "detail": "IIEST Shibpur · May – July 2025"
+      },
+      {
+        "key": "Publications",
+        "value": "6",
+        "detail": "1 journal article, 5 IEEE conference papers · first author on one"
+      }
+    ],
+    "focus": [
+      "Computational biology",
+      "Deep learning",
+      "Transcriptomics",
+      "Cancer genomics",
+      "Structural bioinformatics"
+    ]
+  },
+
+  "about": {
+    "label": "About",
+    "heading": "Computation first, biology always.",
+    "paragraphs": [
+      "I am in the final year of a B.Tech in Bioinformatics at Marwadi University (NAAC A+), where I have kept a CGPA of 8.54 across seven semesters. Since August 2026 I have also worked as a Data Analyst on the core R&D team at Elmentoz Research in Hyderabad, building and testing genomics pipelines.",
+      "The through-line in my work is applying predictive modelling to data that was generated to answer a biological or clinical question. In practice that has meant two complementary tracks. On the machine learning side, I have built classifiers and deep learning frameworks on oncology, neurological, hematological and endocrine datasets — ensemble models for breast cancer outcome prediction, a hybrid pipeline for Parkinson's disease diagnosis from clinical and voice features, a first-author classification study on alpha thalassemia variants, a noise-tolerant ensemble for hypothyroid classification, and PyTorch models for automated sleep apnea detection from physiological signals.",
+      "I have also contributed to a review of conventional and bioinformatics-led approaches to norovirus detection and surveillance, published in Decoding Infection and Transmission — work that sits closer to pathogen genomics than to the clinical modelling above, and that I would like to do more of.",
+      "On the genomics side, I work in Python-based bioinformatics pipelines: quality control, clustering, differential expression and cell-type annotation for single-cell RNA-seq; and differential gene expression, functional enrichment, pathway visualisation and protein–protein interaction network analysis for bulk cancer transcriptomes. My current minor research project uses the TCGA-LIHC cohort to look for prognostic biomarkers and candidate therapeutic targets in hepatocellular carcinoma.",
+      "A Summer Research Fellowship at IIEST Shibpur in 2025 sat at the join between those two tracks: designing and training PyTorch models on high-dimensional physiological signal data, with preprocessing, feature extraction and evaluation pipelines that carry over directly to large-scale sequence analysis.",
+      "I care about work being reproducible as much as accurate — end-to-end workflows, documented parameters, and results that hold up when someone else runs them. I am looking for research and applied roles where machine learning is used to answer genomics, drug-target and biomedical questions."
+    ]
+  },
+
+  "projects": {
+    "label": "Selected projects",
+    "heading": "Six projects, two tracks: genomics pipelines and predictive modelling on clinical data.",
+    "note": "Quantitative performance figures for the modelling projects are reported in the published papers, which are linked from each write-up, rather than restated here. Workflow diagrams describe the methods used; they are not depictions of result data.",
+    "items": [
+      {
+        "id": "hepatocellular-carcinoma",
+        "title": "Integrated Bioinformatics Analysis of Hepatocellular Carcinoma",
+        "kind": "Minor research project",
+        "period": "2026 – 2027",
+        "status": "In progress",
+        "domain": "Cancer genomics",
+        "summary": "Identifying prognostic biomarkers and candidate therapeutic targets in liver cancer from the TCGA-LIHC cohort, by chaining differential expression, functional enrichment, pathway visualisation, network analysis and drug–gene mapping into one reproducible analysis.",
+        "problem": "Hepatocellular carcinoma is diagnosed late and has few reliable prognostic markers. Public tumour–normal transcriptome cohorts such as TCGA-LIHC hold enough signal to nominate candidate biomarkers and druggable targets, but only if expression, pathway and interaction evidence are read together rather than in isolation.",
+        "contribution": "Designing and running the full analysis: cohort preparation, the differential expression model, the enrichment and pathway layers, construction and interrogation of the protein–protein interaction network, and the final drug–gene mapping step.",
+        "pipeline": [
+          "TCGA-LIHC expression and clinical data",
+          "Differential gene expression — DESeq2",
+          "Functional enrichment — g:Profiler",
+          "Pathway visualisation — Pathview",
+          "PPI network — STRING, Cytoscape",
+          "Drug–gene mapping — DrugBank"
+        ],
+        "tools": ["DESeq2", "g:Profiler", "Pathview", "STRING", "Cytoscape", "DrugBank", "R", "Python"],
+        "outputs": []
+      },
+      {
+        "id": "single-cell-transcriptomics",
+        "title": "Single-Cell Transcriptomic Analysis: Differential Expression & Cell-Type Annotation",
+        "kind": "Academic project",
+        "period": "April 2026",
+        "status": "Completed",
+        "domain": "Transcriptomics",
+        "summary": "Reproducible, end-to-end Python workflows for scRNA-seq — quality control through clustering, differential expression and cell-type annotation — applied to public datasets to investigate disease-associated transcriptional changes and surface candidate biomarkers.",
+        "problem": "Single-cell datasets resolve transcriptional change to individual cell types, but the analysis path from raw counts to annotated populations involves many consequential parameter choices. Without a workflow that records those choices, results are hard to reproduce or compare across datasets.",
+        "contribution": "Engineered the workflows end to end in Python, structured so that quality-control thresholds, clustering resolution and annotation decisions are explicit and re-runnable on a new dataset.",
+        "pipeline": [
+          "Public scRNA-seq datasets (GEO / SRA)",
+          "Quality control and filtering",
+          "Normalisation and feature selection",
+          "Dimensionality reduction and clustering",
+          "Differential expression per cluster",
+          "Cell-type annotation",
+          "Candidate biomarker shortlist"
+        ],
+        "tools": ["Python", "Scanpy", "NumPy", "Pandas", "GEO / SRA datasets"],
+        "outputs": []
+      },
+      {
+        "id": "sleep-apnea",
+        "title": "Sleep Apnea Detection & CPAP Therapy Optimization via Deep Learning",
+        "kind": "Research project",
+        "period": "2025 – 2026",
+        "status": "Published — IEEE I3CTCON 2026",
+        "domain": "Deep learning · biomedical signals",
+        "summary": "Deep learning frameworks in PyTorch for automated detection of sleep apnea events from physiological signals, with feature engineering and signal preprocessing, directed at informing CPAP therapy adjustment.",
+        "problem": "Scoring apnea events from overnight physiological recordings is manual and labour-intensive, which limits how responsively CPAP therapy can be tuned. Automated detection from the signals themselves is a prerequisite for closing that loop.",
+        "contribution": "Built the predictive frameworks: signal preprocessing, the engineered feature representation, and the PyTorch model and training setup.",
+        "pipeline": [
+          "Physiological signal recordings",
+          "Signal preprocessing and filtering",
+          "Feature engineering",
+          "PyTorch deep learning model",
+          "Apnea event detection",
+          "Input to CPAP therapy adjustment"
+        ],
+        "tools": ["Python", "PyTorch", "NumPy", "Signal processing", "Feature engineering"],
+        "outputs": [
+          {
+            "label": "Application of Deep Learning Techniques for Sleep Apnea Detection and CPAP Therapy Adjustment",
+            "venue": "IEEE I3CTCON 2026",
+            "status": "Published",
+            "doi": "10.1109/I3CTCON68242.2026.11507132"
+          }
+        ]
+      },
+      {
+        "id": "breast-cancer-outcome",
+        "title": "Breast Cancer Outcome Prediction — Integrated ML Classifiers",
+        "kind": "Research project",
+        "period": "2024 – 2025",
+        "status": "Published — IEEE HTC Japan 2025",
+        "domain": "Oncology · machine learning",
+        "summary": "Ensemble machine learning classifiers applied to oncology datasets to identify prognostic features and predict survival outcomes in breast cancer.",
+        "problem": "Prognosis in breast cancer depends on the interaction of many clinical and molecular variables. Single classifiers tend to privilege one slice of that structure; combining them gives a more stable read on which features actually carry prognostic weight.",
+        "contribution": "Applied and compared ensemble classifiers in Scikit-learn, and carried out the prognostic feature identification and survival outcome prediction.",
+        "pipeline": [
+          "Oncology clinical dataset",
+          "Preprocessing and feature selection",
+          "Ensemble classifiers — Scikit-learn",
+          "Prognostic feature identification",
+          "Survival outcome prediction"
+        ],
+        "tools": ["Python", "Scikit-learn", "Pandas", "NumPy", "Ensemble methods"],
+        "outputs": [
+          {
+            "label": "Predicting Breast Cancer Outcomes Using Integrated Machine Learning Classifiers",
+            "venue": "IEEE R10-HTC 2025",
+            "status": "Published",
+            "doi": "10.1109/R10-HTC63995.2025.11394240"
+          }
+        ]
+      },
+      {
+        "id": "parkinsons-diagnosis",
+        "title": "Parkinson's Disease Diagnosis — Hybrid ML Parameter Optimization",
+        "kind": "Research project",
+        "period": "2024 – 2025",
+        "status": "Published — IEEE HTC Japan 2025",
+        "domain": "Neurology · machine learning",
+        "summary": "A hybrid machine learning pipeline with comparative classifier analysis, designed to maximise diagnostic sensitivity on clinical and voice feature datasets.",
+        "problem": "Voice and clinical measures carry early signal for Parkinson's disease, but which measures and which model configuration give the most sensitive diagnosis is not settled. Sensitivity matters more than raw accuracy when the cost of a missed case is high.",
+        "contribution": "Designed the hybrid pipeline and ran the comparative classifier analysis and parameter selection with diagnostic sensitivity as the optimisation target.",
+        "pipeline": [
+          "Clinical and voice feature datasets",
+          "Preprocessing and feature extraction",
+          "Hybrid ML pipeline",
+          "Comparative classifier analysis",
+          "Parameter optimisation for sensitivity"
+        ],
+        "tools": ["Python", "Scikit-learn", "Feature engineering", "Model selection"],
+        "outputs": [
+          {
+            "label": "Optimized Parameter Selection for Parkinson's Diagnosis Using a Hybrid Machine Learning Models",
+            "venue": "IEEE R10-HTC 2025",
+            "status": "Published",
+            "doi": "10.1109/R10-HTC63995.2025.11394167"
+          }
+        ]
+      },
+      {
+        "id": "alpha-thalassemia",
+        "title": "Alpha Thalassemia Classification via Machine Learning",
+        "kind": "Research project",
+        "period": "2024 – 2025",
+        "status": "Published — IEEE ASSIC 2025 · first author",
+        "domain": "Hematology · machine learning",
+        "summary": "A machine learning classification model for distinguishing alpha thalassemia variants, built in Python with Scikit-learn.",
+        "problem": "Alpha thalassemia variants differ in clinical consequence but overlap in routine hematological presentation, which makes variant-level classification from standard measurements a useful screening aid.",
+        "contribution": "Built the classification model, including data preparation, model training and evaluation.",
+        "pipeline": [
+          "Hematological measurements",
+          "Preprocessing and feature preparation",
+          "Classification model — Scikit-learn",
+          "Variant classification",
+          "Model evaluation"
+        ],
+        "tools": ["Python", "Scikit-learn", "Pandas"],
+        "outputs": [
+          {
+            "label": "Alpha Thalassemia: A Machine Learning-Based Classification Study",
+            "venue": "IEEE ASSIC 2025",
+            "status": "Published — first author, oral presentation",
+            "doi": "10.1109/ASSIC64892.2025.11158287"
+          }
+        ]
+      }
+    ]
+  },
+
+  "experience": {
+    "label": "Experience & research",
+    "heading": "Research-driven data analysis, in industry and in the lab.",
+    "items": [
+      {
+        "role": "Data Analyst — Core R&D Team",
+        "org": "Elmentoz Research Pvt. Ltd.",
+        "period": "August 2026 – Present",
+        "type": "Industry",
+        "location": "Hyderabad · On-site",
+        "current": true,
+        "bullets": [
+          "Build, test and maintain genomics analysis pipelines as part of the core R&D team.",
+          "Work across bioinformatics and computational biology problems, developing and evaluating approaches to arrive at workable solutions.",
+          "Support ongoing research work end to end, from pipeline implementation through to testing."
+        ],
+        "tools": [],
+        "note": ""
+      },
+      {
+        "role": "Summer Research Fellow",
+        "org": "IIEST Shibpur — Indian Institute of Engineering Science & Technology",
+        "period": "May – July 2025",
+        "type": "Research fellowship",
+        "current": false,
+        "bullets": [
+          "Designed and trained PyTorch deep learning models on high-dimensional physiological signal datasets for biomedical pattern recognition.",
+          "Applied signal preprocessing, feature extraction and model evaluation pipelines transferable to large-scale genomic and protein sequence analysis.",
+          "Worked hands-on with data-driven neural network modelling and performance benchmarking on biological data."
+        ],
+        "tools": ["PyTorch", "Python", "Signal processing", "Model benchmarking"],
+        "note": ""
+      }
+    ]
+  },
+
+  "publications": {
+    "label": "Publications",
+    "heading": "Six publications: one journal article and five IEEE conference papers.",
+    "note": "Titles, venues and author orders below are taken from the registered DOI records, so they are the published versions and may differ slightly from earlier working titles. Author names are listed in published order; mine is highlighted.",
+    "groups": [
+      {
+        "name": "Journal articles",
+        "items": [
+          {
+            "title": "Advances in Norovirus Detection and Surveillance: A Brief Review of Conventional Methods and Cutting-Edge Bioinformatics Approaches",
+            "venue": "Decoding Infection and Transmission (Elsevier)",
+            "year": "2026",
+            "status": "Published",
+            "authors": [
+              "Jaikee Kumar Singh",
+              "Himanshu Avashthi",
+              "Muktesh Chandra",
+              "Sejal Shah",
+              "Pramod Gware",
+              "Husen Lakdawala",
+              "Zuzer Chathiwala",
+              "Abhishek Kumar Verma"
+            ],
+            "doi": "10.1016/j.dcit.2026.100094",
+            "url": "",
+            "project": ""
+          }
+        ]
+      },
+      {
+        "name": "Conference papers",
+        "items": [
+          {
+            "title": "Noise-Tolerant Multi-Model Ensemble for Robust Hypothyroid Classification",
+            "venue": "2026 International Conference on Advancements in Smart, Secure and Intelligent Computing (ASSIC), IEEE",
+            "year": "2026",
+            "status": "Published",
+            "authors": [
+              "Annie Jijo Zacharia",
+              "Yug Trivedi",
+              "Zuzer Chathiwala",
+              "Husen Lakdawala",
+              "Jaikee Kumar Singh",
+              "Sejal Shah"
+            ],
+            "doi": "10.1109/ASSIC70037.2026.11717313",
+            "url": "",
+            "project": ""
+          },
+          {
+            "title": "Application of Deep Learning Techniques for Sleep Apnea Detection and CPAP Therapy Adjustment",
+            "venue": "2026 IEEE International Conference for Convergence in Computing Technology (I3CTCON)",
+            "year": "2026",
+            "status": "Published",
+            "authors": ["Anshuman Vikram", "Zuzer Chathiwala", "Tanmay Pal"],
+            "doi": "10.1109/I3CTCON68242.2026.11507132",
+            "url": "",
+            "project": "sleep-apnea"
+          },
+          {
+            "title": "Optimized Parameter Selection for Parkinson's Diagnosis Using a Hybrid Machine Learning Models",
+            "venue": "2025 IEEE 13th Region 10 Humanitarian Technology Conference (R10-HTC)",
+            "year": "2025",
+            "status": "Published",
+            "authors": [
+              "Husen Lakdawala",
+              "Zuzer Chathiwala",
+              "Yug Trivedi",
+              "Jaikee Kumar Singh",
+              "Himanshu Avashthi",
+              "Sejal Shah"
+            ],
+            "doi": "10.1109/R10-HTC63995.2025.11394167",
+            "url": "",
+            "project": "parkinsons-diagnosis"
+          },
+          {
+            "title": "Predicting Breast Cancer Outcomes Using Integrated Machine Learning Classifiers",
+            "venue": "2025 IEEE 13th Region 10 Humanitarian Technology Conference (R10-HTC)",
+            "year": "2025",
+            "status": "Published",
+            "authors": [
+              "Khushi Kansara",
+              "Yug Trivedi",
+              "Zuzer Chathiwala",
+              "Husen Lakdawala",
+              "Muktesh Chandra",
+              "Sejal Shah"
+            ],
+            "doi": "10.1109/R10-HTC63995.2025.11394240",
+            "url": "",
+            "project": "breast-cancer-outcome"
+          },
+          {
+            "title": "Alpha Thalassemia: A Machine Learning-Based Classification Study",
+            "venue": "2025 International Conference on Advancements in Smart, Secure and Intelligent Computing (ASSIC), IEEE",
+            "year": "2025",
+            "status": "Published — first author, oral presentation",
+            "authors": [
+              "Zuzer Chathiwala",
+              "Husen Lakdawala",
+              "Kavya Patel",
+              "Himanshu Avashthi",
+              "Sejal Shah",
+              "Muktesh Chandra"
+            ],
+            "doi": "10.1109/ASSIC64892.2025.11158287",
+            "url": "",
+            "project": "alpha-thalassemia"
+          }
+        ]
+      }
+    ]
+  },
+
+  "skills": {
+    "label": "Technical skills",
+    "heading": "What I work with.",
+    "note": "Items marked “exposure” are tools I have worked with at an introductory level and are labelled as such deliberately.",
+    "groups": [
+      {
+        "name": "AI / ML / Deep learning",
+        "items": [
+          "Python", "PyTorch", "Scikit-learn", "NumPy", "Pandas",
+          "Deep learning", "Neural networks", "Feature engineering",
+          "Predictive modelling", "Signal processing"
+        ]
+      },
+      {
+        "name": "Bioinformatics & genomics",
+        "items": [
+          "BLAST", "MEGA 12", "FastQC", "Trimmomatic", "STRING", "KEGG",
+          "Ensembl", "NCBI", "GEO / SRA datasets", "Functional enrichment",
+          "Pathway analysis", "Transcriptomics", "RNA-Seq", "scRNA-seq / Scanpy"
+        ]
+      },
+      {
+        "name": "Structural bioinformatics",
+        "items": [
+          "PyMOL", "PDB format", "AlphaFold", "Protein–protein interactions",
+          "Molecular docking principles", "AutoDock / AutoDock Vina — exposure"
+        ]
+      },
+      {
+        "name": "Analysis platforms & workflows",
+        "items": ["DESeq2", "g:Profiler", "Pathview", "Cytoscape", "DrugBank"]
+      },
+      {
+        "name": "Domain knowledge",
+        "items": [
+          "Cancer genomics", "Differential gene expression",
+          "Computational drug discovery"
+        ]
+      }
+    ]
+  },
+
+  "interests": {
+    "label": "Research interests",
+    "heading": "Where I want to take this.",
+    "note": "These are directions I want to work in, grounded in the projects above — not claims of established expertise.",
+    "items": [
+      {
+        "name": "Computational cancer genomics",
+        "detail": "Prognostic biomarker discovery and therapeutic target nomination from tumour transcriptomes, building on the TCGA-LIHC analysis."
+      },
+      {
+        "name": "Single-cell and bulk transcriptomics",
+        "detail": "Reproducible workflows for resolving disease-associated transcriptional change to specific cell populations."
+      },
+      {
+        "name": "Deep learning for biomedical data",
+        "detail": "Neural network models on physiological signals and high-dimensional biological data, with honest evaluation."
+      },
+      {
+        "name": "Structural bioinformatics and drug target discovery",
+        "detail": "Protein structure and interaction evidence — PyMOL, AlphaFold, PDB, docking principles — applied to prioritising targets."
+      },
+      {
+        "name": "Pathogen genomics and surveillance",
+        "detail": "Bioinformatics approaches to detecting and tracking infectious agents, following on from the norovirus surveillance review."
+      },
+      {
+        "name": "Multi-omics integration",
+        "detail": "Reading expression, pathway, interaction and drug-annotation layers together rather than one at a time."
+      }
+    ]
+  },
+
+  "education": {
+    "label": "Education & certifications",
+    "degrees": [
+      {
+        "degree": "B.Tech Bioinformatics",
+        "org": "Marwadi University (NAAC A+), Rajkot, Gujarat",
+        "period": "2023 – Present",
+        "detail": "CGPA 8.54 / 10 · Semester 7 ongoing"
+      }
+    ],
+    "certifications": [
+      {
+        "name": "Machine Learning & Python for Data Science",
+        "org": "Infosys Springboard",
+        "period": "Jan – Mar 2026"
+      },
+      {
+        "name": "Data Science Essentials",
+        "org": "Cisco Networking Academy",
+        "period": "Jul – Sep 2025"
+      },
+      {
+        "name": "Complete Data Science, ML, DL & NLP Bootcamp",
+        "org": "Udemy",
+        "period": "Jun – Sep 2025"
+      },
+      {
+        "name": "Python for Biologists; Bioinformatics Data Processing & Analysis",
+        "org": "Marwadi University",
+        "period": "2024"
+      }
+    ],
+    "awards": [],
+    "_awards_note": "The resume lists no separate awards section. The publication statuses (including the ASSIC 2025 oral presentation) are recorded under Publications."
+  },
+
+  "contact": {
+    "label": "Contact",
+    "heading": "Get in touch",
+    "body": "I am open to research positions, internships and fellowships in bioinformatics, computational biology and applied machine learning, and to collaborations on genomics or biomedical modelling work. The fastest way to reach me is email.",
+    "cta": "Email me"
+  },
+
+  "nav": [
+    { "label": "About", "href": "#about" },
+    { "label": "Experience", "href": "#experience" },
+    { "label": "Projects", "href": "#projects" },
+    { "label": "Research", "href": "#publications" },
+    { "label": "Skills", "href": "#skills" },
+    { "label": "Contact", "href": "#contact" }
+  ]
+}
