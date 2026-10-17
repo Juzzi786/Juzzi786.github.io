@@ -64,7 +64,7 @@
       {
         "key": "Education",
         "value": "B.Tech Bioinformatics",
-        "detail": "Marwadi University (NAAC A+) · CGPA 8.54 / 10 · Semester 7 ongoing"
+        "detail": "Marwadi University (NAAC A+) · CGPA 8.48 / 10 · Semester 8 ongoing"
       },
       {
         "key": "Research fellowship",
@@ -90,7 +90,7 @@
     "label": "About",
     "heading": "Computation first, biology always.",
     "paragraphs": [
-      "I am in the final year of a B.Tech in Bioinformatics at Marwadi University (NAAC A+), where I have kept a CGPA of 8.54 across seven semesters. Since August 2026 I have also worked as a Data Analyst on the core R&D team at Elmentoz Research in Hyderabad, building and testing genomics pipelines.",
+      "I am in the final year of a B.Tech in Bioinformatics at Marwadi University (NAAC A+). Since August 2026 I have also worked as a Data Analyst on the core R&D team at Elmentoz Research in Hyderabad, building and testing genomics pipelines.",
       "The through-line in my work is applying predictive modelling to data that was generated to answer a biological or clinical question. In practice that has meant two complementary tracks. On the machine learning side, I have built classifiers and deep learning frameworks on oncology, neurological, hematological and endocrine datasets — ensemble models for breast cancer outcome prediction, a hybrid pipeline for Parkinson's disease diagnosis from clinical and voice features, a first-author classification study on alpha thalassemia variants, a noise-tolerant ensemble for hypothyroid classification, and PyTorch models for automated sleep apnea detection from physiological signals.",
       "I have also contributed to a review of conventional and bioinformatics-led approaches to norovirus detection and surveillance, published in Decoding Infection and Transmission — work that sits closer to pathogen genomics than to the clinical modelling above, and that I would like to do more of.",
       "On the genomics side, I work in Python-based bioinformatics pipelines: quality control, clustering, differential expression and cell-type annotation for single-cell RNA-seq; and differential gene expression, functional enrichment, pathway visualisation and protein–protein interaction network analysis for bulk cancer transcriptomes. My current minor research project uses the TCGA-LIHC cohort to look for prognostic biomarkers and candidate therapeutic targets in hepatocellular carcinoma.",
@@ -490,8 +490,8 @@
       {
         "degree": "B.Tech Bioinformatics",
         "org": "Marwadi University (NAAC A+), Rajkot, Gujarat",
-        "period": "2023 – Present",
-        "detail": "CGPA 8.54 / 10 · Semester 7 ongoing"
+        "period": "2023 – 2027",
+        "detail": "CGPA 8.48 / 10 · Semester 8 ongoing"
       }
     ],
     "certifications": [
